@@ -2,10 +2,4 @@
 
 echo "hello"
 
-sdfsdfs
-
-sdfs
-df
-s
-fs
-df
+uname -a
