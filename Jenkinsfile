@@ -1,6 +1,7 @@
 node("master"){
   stage("checkout"){
-  echo "checkout.."
-  checkout scm
+    def scmVars = checkout scm
+    def commitHash = scmVars.GIT_COMMIT
+    println commitHash
   }
 }
