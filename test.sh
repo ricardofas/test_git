@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-echo "hello"
+echo "hello avs"
 
 uname -a
 
